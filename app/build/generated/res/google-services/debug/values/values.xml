@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">490033967946-8gr0vg0cjt9kjiu9or3antmc9n8ep8h3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://expense-manager-8d747.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">490033967946</string>
+    <string name="google_api_key" translatable="false">AIzaSyDDKeSEKn47rHnc7ShkWCnnkHtizdW5XFo</string>
+    <string name="google_app_id" translatable="false">1:490033967946:android:55a0ca32327f1ece0e47b3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDDKeSEKn47rHnc7ShkWCnnkHtizdW5XFo</string>
+    <string name="google_storage_bucket" translatable="false">expense-manager-8d747.appspot.com</string>
+    <string name="project_id" translatable="false">expense-manager-8d747</string>
+</resources>
