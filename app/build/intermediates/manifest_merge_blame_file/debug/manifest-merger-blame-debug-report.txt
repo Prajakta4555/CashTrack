@@ -1,0 +1,260 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.expensemanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.firebaseui:firebase-ui-database:0.4.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/981b5380244c6d0dc8d36d4569957f2b/jetified-firebase-ui-database-0.4.0/AndroidManifest.xml:11:5-67
+11-->[com.firebaseui:firebase-ui-database:0.4.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/981b5380244c6d0dc8d36d4569957f2b/jetified-firebase-ui-database-0.4.0/AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b3070c817ad8945013e90d1f7810a4aa/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b3070c817ad8945013e90d1f7810a4aa/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
+15
+16    <application
+16-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:5:5-23:19
+17        android:allowBackup="true"
+17-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/12a6bf48d95b151f5141a87053ee8e99/core-1.3.1/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/app_logo"
+21-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:7:9-40
+22        android:label="@string/app_name"
+22-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/app_logo_round"
+23-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:9:9-51
+24        android:supportsRtl="true"
+24-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.ExpenseManager" >
+26-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:11:9-52
+27        <activity android:name="com.example.expensemanager.MainActivity" />
+27-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:12:9-59
+27-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:12:19-47
+28        <activity android:name="com.example.expensemanager.HomeActivity" />
+28-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:13:9-50
+28-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:13:19-47
+29        <activity android:name="com.example.expensemanager.ResetPasswordActivity" />
+29-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:14:9-59
+29-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:14:19-56
+30        <activity android:name="com.example.expensemanager.RegistrationActivity" />
+30-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:15:9-58
+30-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:15:19-55
+31        <activity android:name="com.example.expensemanager.SplashScreen" >
+31-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:16:9-22:20
+31-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:16:19-47
+32            <intent-filter>
+32-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:17:13-21:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:18:17-69
+33-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:20:17-77
+35-->/home/prajakta/Public/TY/Android/project/final/ExpenseManagerApp/app/src/main/AndroidManifest.xml:20:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:27:9-44:20
+39            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+39-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:28:13-80
+40            android:excludeFromRecents="true"
+40-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:29:13-46
+41            android:exported="true"
+41-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:30:13-36
+42            android:launchMode="singleTask"
+42-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:31:13-44
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+43-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:32:13-72
+44            <intent-filter>
+44-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:33:13-43:29
+45                <action android:name="android.intent.action.VIEW" />
+45-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:17-69
+45-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:25-66
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+47-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
+48                <category android:name="android.intent.category.BROWSABLE" />
+48-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:17-78
+48-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:27-75
+49
+50                <data
+50-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:39:17-42:51
+51                    android:host="firebase.auth"
+51-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:40:21-49
+52                    android:path="/"
+52-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:41:21-37
+53                    android:scheme="genericidp" />
+53-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:42:21-48
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:45:9-62:20
+57            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+57-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:46:13-79
+58            android:excludeFromRecents="true"
+58-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:47:13-46
+59            android:exported="true"
+59-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:48:13-36
+60            android:launchMode="singleTask"
+60-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:49:13-44
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+61-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:50:13-72
+62            <intent-filter>
+62-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:51:13-61:29
+63                <action android:name="android.intent.action.VIEW" />
+63-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:17-69
+63-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+65-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:17-78
+66-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:27-75
+67
+68                <data
+68-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:39:17-42:51
+69                    android:host="firebase.auth"
+69-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:40:21-49
+70                    android:path="/"
+70-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:41:21-37
+71                    android:scheme="recaptcha" />
+71-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:42:21-48
+72            </intent-filter>
+73        </activity>
+74
+75        <service
+75-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:64:9-73:19
+76            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+76-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:65:13-101
+77            android:enabled="true"
+77-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:66:13-35
+78            android:exported="false" >
+78-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:67:13-37
+79            <intent-filter>
+79-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:68:13-72:29
+80                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+80-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:17-89
+80-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:25-86
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+82-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
+83            </intent-filter>
+84        </service>
+85        <service
+85-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:74:9-80:19
+86            android:name="com.google.firebase.components.ComponentDiscoveryService"
+86-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:75:13-84
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:19.4.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b6aa8edcb2528d8f625e616b4b2fc525/jetified-firebase-common-19.4.0/AndroidManifest.xml:35:13-43
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:76:13-37
+89            <meta-data
+89-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:77:13-79:85
+90                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+90-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:78:17-109
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-auth:20.0.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/9fddfa0db675886ff93add34da0ebced/jetified-firebase-auth-20.0.1/AndroidManifest.xml:79:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-firestore:22.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/2740076feedd5cf04dbc7570105e4ad1/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:20:13-22:85
+93                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+93-->[com.google.firebase:firebase-firestore:22.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/2740076feedd5cf04dbc7570105e4ad1/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:21:17-111
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-firestore:22.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/2740076feedd5cf04dbc7570105e4ad1/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:22:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-database:19.5.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/5d0f838f2b8ef4bfd28f8262d3c8429b/jetified-firebase-database-19.5.1/AndroidManifest.xml:32:13-34:85
+96                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+96-->[com.google.firebase:firebase-database:19.5.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/5d0f838f2b8ef4bfd28f8262d3c8429b/jetified-firebase-database-19.5.1/AndroidManifest.xml:33:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-database:19.5.1] /home/prajakta/.gradle/caches/transforms-2/files-2.1/5d0f838f2b8ef4bfd28f8262d3c8429b/jetified-firebase-database-19.5.1/AndroidManifest.xml:34:17-82
+98            <meta-data
+98-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b3070c817ad8945013e90d1f7810a4aa/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
+99                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+99-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b3070c817ad8945013e90d1f7810a4aa/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b3070c817ad8945013e90d1f7810a4aa/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-installations:16.3.4] /home/prajakta/.gradle/caches/transforms-2/files-2.1/299ee1042bcdaa75ad45cb773deff7e0/jetified-firebase-installations-16.3.4/AndroidManifest.xml:18:13-20:85
+102                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+102-->[com.google.firebase:firebase-installations:16.3.4] /home/prajakta/.gradle/caches/transforms-2/files-2.1/299ee1042bcdaa75ad45cb773deff7e0/jetified-firebase-installations-16.3.4/AndroidManifest.xml:19:17-127
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-installations:16.3.4] /home/prajakta/.gradle/caches/transforms-2/files-2.1/299ee1042bcdaa75ad45cb773deff7e0/jetified-firebase-installations-16.3.4/AndroidManifest.xml:20:17-82
+104        </service>
+105
+106        <provider
+106-->[com.google.firebase:firebase-common:19.4.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b6aa8edcb2528d8f625e616b4b2fc525/jetified-firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
+107            android:name="com.google.firebase.provider.FirebaseInitProvider"
+107-->[com.google.firebase:firebase-common:19.4.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b6aa8edcb2528d8f625e616b4b2fc525/jetified-firebase-common-19.4.0/AndroidManifest.xml:27:13-77
+108            android:authorities="com.example.expensemanager.firebaseinitprovider"
+108-->[com.google.firebase:firebase-common:19.4.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b6aa8edcb2528d8f625e616b4b2fc525/jetified-firebase-common-19.4.0/AndroidManifest.xml:28:13-72
+109            android:directBootAware="true"
+109-->[com.google.firebase:firebase-common:19.4.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b6aa8edcb2528d8f625e616b4b2fc525/jetified-firebase-common-19.4.0/AndroidManifest.xml:29:13-43
+110            android:exported="false"
+110-->[com.google.firebase:firebase-common:19.4.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b6aa8edcb2528d8f625e616b4b2fc525/jetified-firebase-common-19.4.0/AndroidManifest.xml:30:13-37
+111            android:initOrder="100" />
+111-->[com.google.firebase:firebase-common:19.4.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/b6aa8edcb2528d8f625e616b4b2fc525/jetified-firebase-common-19.4.0/AndroidManifest.xml:31:13-36
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:17.1.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/a8235920046dd925bdec8b6748f129a4/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:17.1.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/a8235920046dd925bdec8b6748f129a4/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:17.1.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/a8235920046dd925bdec8b6748f129a4/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:17.1.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/a8235920046dd925bdec8b6748f129a4/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+117
+118        <receiver
+118-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+119-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
+121            android:exported="false" >
+121-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
+122        </receiver>
+123
+124        <service
+124-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
+125            android:name="com.google.android.gms.measurement.AppMeasurementService"
+125-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
+127            android:exported="false" />
+127-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
+128        <service
+128-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
+129            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+129-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
+131            android:exported="false"
+131-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
+132            android:permission="android.permission.BIND_JOB_SERVICE" />
+132-->[com.google.android.gms:play-services-measurement:18.0.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e7088e93aa9e4ba3fcef4d8a3f9d1310/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
+133
+134        <meta-data
+134-->[com.google.android.gms:play-services-basement:17.1.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e268f696b142f16bfc90e1700c3f52db/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+135            android:name="com.google.android.gms.version"
+135-->[com.google.android.gms:play-services-basement:17.1.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e268f696b142f16bfc90e1700c3f52db/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+136            android:value="@integer/google_play_services_version" />
+136-->[com.google.android.gms:play-services-basement:17.1.0] /home/prajakta/.gradle/caches/transforms-2/files-2.1/e268f696b142f16bfc90e1700c3f52db/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+137    </application>
+138
+139</manifest>
